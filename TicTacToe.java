@@ -112,7 +112,7 @@ public class TicTacToe{
 		xTurn = true;
 	}
 	
-	/
+	
 	
 	private boolean winner(int lastR, int lastC)  {
 	
@@ -210,10 +210,11 @@ public class TicTacToe{
 					
 					System.exit(0);
 				}
-				else  {
+				else  
+					
 					
 					xTurn = !xTurn; 
-			}
+						}
 			else if(choice == 2)
 				restart();
 			else if(choice == 3)
